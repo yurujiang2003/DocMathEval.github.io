@@ -296,7 +296,7 @@
     <style>
         .image-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 三列布局 */
+            grid-template-columns: repeat(2, 1fr); /* 三列布局 */
             gap: 10px; /* 图片之间的间距 */
             justify-items: center;
             align-items: center;
@@ -324,10 +324,10 @@
           <p>
             We introduce DOCMATH-EVAL, a comprehensive benchmark designed to systematically evaluate LLMs’ numerical reasoning ability to understand and interpret financial documents. This
             includes a newly developed, challenging evaluation set and three adapted evaluation sets for
-            varying difficulty levels.
+            varying difficulty levels.<br>
             • We conduct an extensive evaluation encompassing a wide range of LLMs, including those specialized in coding and finance. We also incorporate different prompting methods (e.g., CoT and
             PoT) to comprehensively assess the capabilities
-            and limitations of existing LLMs in our task.
+            and limitations of existing LLMs in our task.<br>
             • Our experimental results reveal a noticeable performance gap compared to human experts in
             more complex scenarios (e.g., problems requiring complex numerical reasoning over long documents). This highlights the limitations of current
             LLMs in complex real-world applications and
@@ -335,6 +335,23 @@
         </div>
       </div>
     </div>
+
+<section class="section">
+    <div class="container" style="margin-bottom: 2vh;">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Recent LLMs have demonstrated remarkable performance in solving exam-like math word problems. However, the degree to which these numerical reasoning skills are effective in real-world scenarios, particularly in expert domains, is still largely unexplored. This paper introduces DOCMATH-EVAL, a comprehensive benchmark specifically designed to evaluate the numerical reasoning capabilities of LLMs in the context of understanding and analyzing financial documents containing both text and tables. We evaluate a wide spectrum of 27 LLMs, including those specialized in math, coding, and finance, with Chain-of-Thought and Program-of-Thought prompting methods. We found that even the current best-performing system (i.e., GPT-4) still significantly lags behind human experts in solving complex numerical reasoning problems grounded in long contexts. We believe DOCMATH-EVAL can be used as a valuable benchmark to evaluate LLMs’ capabilities to solve challenging numerical reasoning problems in expert domains.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
 
 <section class="section">
   <div class="container">
